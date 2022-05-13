@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pikker.Android", "pikker.Android\pikker.Android.csproj", "{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pikker", "pikker\pikker.csproj", "{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6D4B14-3AED-414B-8B7B-1F0CB4DA9BF3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF9DECF-BE9D-45E7-A09B-A9E98BC0C357}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36513567-A75A-4A8B-908A-86E377BC1093}
+	EndGlobalSection
+EndGlobal
