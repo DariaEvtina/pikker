@@ -29,10 +29,14 @@ namespace pikker
             bool result = await DisplayAlert("Do you want open a Picker", "Cancel", "Yes", "No");
             if (result)
             {
-                string action = await DisplayActionSheet("Choose a Picker", "Cancel", null, "Counties Picker");
+                string action = await DisplayActionSheet("Choose a Picker", "Cancel", null, "Counties Picker", "Date Picker");
                 if (action == "Counties Picker")
                 {
                     await Navigation.PushAsync(new ContiesPicker());
+                }
+                else if (action == "Date Picker")
+                {
+                    await Navigation.PushAsync(new DataPicker());
                 }
             }
             else
