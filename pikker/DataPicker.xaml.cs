@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace pikker
 {
-    public class DataPicker : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class DataPicker : ContentPage
     {
         StackLayout st;
         DatePicker dp;
         Label emoj;
         Label sign;
         Label lbl;
-        string[] zodiaks = { "pisces", "tarturus", "gemini", "cancer", "leo", "aries", "libra", "scorpio", "sagittarius", "capricorn", "aquarius","virgo" };
+        string[] zodiaks = { "pisces", "tarturus", "gemini", "cancer", "leo", "aries", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "virgo" };
         string[] emoji = { "♓️", "♉️", "♋️", "♌️", "♈️", "♎️", "♏️", "♐️", "♑️", "⛎️", "♏️" };
 
         //(dp.Date).ToString()
@@ -94,6 +97,6 @@ namespace pikker
                 lbl.Text = $"{emoji[1]} - {zodiaks[1]}\nThe year will bring you respect and recognition, success in work, in personal affairs and in spiritual activities. Your abilities will be appreciated if you have previously made efforts to develop them. Music, dancing, singing, art, literature will burst into your life. Feel free to follow your dreams. There will be an opportunity to start new intellectual and creative projects and succeed in them.";
             }
         }
-    
+
     }
 }
